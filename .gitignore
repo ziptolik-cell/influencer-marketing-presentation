@@ -1,0 +1,4 @@
+.playwright-mcp/
+*.jpeg
+download_map.py
+__pycache__/
