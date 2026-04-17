@@ -1,8 +1,59 @@
 .world-map { position: relative; width: 100%; aspect-ratio: 1389/955; }
 .world-map .country { position: absolute; }
 .world-map .country img { display: block; width: 100%; height: 100%; }
-.world-map .map-pin { position: absolute; z-index: 5; }
-.world-map .map-pin img { display: block; width: 100%; height: 100%; }
+/* Pin markers */
+.map-pin {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.pin-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(45deg, rgba(235,239,252,0.15) 0%, rgba(235,246,241,0.15) 50%, rgba(242,247,235,0.15) 100%);
+}
+.pin-mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(45deg, rgba(235,239,252,0.25) 0%, rgba(235,246,241,0.25) 50%, rgba(242,247,235,0.25) 100%);
+}
+.pin-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #71b219;
+  background: linear-gradient(74deg, #ebeffc 4.23%, #ebf6f1 54.13%, #f2f7eb 104.04%);
+}
+.pin-inner img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 48%;
+  max-height: 65%;
+  object-fit: contain;
+}
+
+/* Large pins */
+.map-pin-lg .pin-outer { padding: 14px; }
+.map-pin-lg .pin-mid { padding: 14px; }
+.map-pin-lg .pin-inner { width: 70px; height: 70px; }
+
+/* Medium pins */
+.map-pin-md .pin-outer { padding: 10px; }
+.map-pin-md .pin-mid { padding: 10px; }
+.map-pin-md .pin-inner { width: 50px; height: 50px; border-width: 0.6px; }
+
+/* Small pins */
+.map-pin-sm .pin-outer { padding: 7px; }
+.map-pin-sm .pin-mid { padding: 7px; }
+.map-pin-sm .pin-inner { width: 36px; height: 36px; border-width: 0.4px; }
 
 .country-ad { inset: 47.56% 52.48% 52.33% 47.43%; }
 .country-ae { inset: 55.67% 37.29% 42.82% 61.37%; }
