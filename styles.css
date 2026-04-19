@@ -938,7 +938,8 @@ a {
 .s6-map {
   position: absolute;
   top: 8.24%; /* 89/1080 */
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 55%;
   z-index: 1;
 }
