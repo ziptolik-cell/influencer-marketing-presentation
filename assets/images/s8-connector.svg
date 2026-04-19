@@ -1,0 +1,36 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 276.5 709" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 2087326109">
+<path id="Vector 85" d="M9 9H205C243.66 9 275 40.3401 275 79V630C275 668.66 243.66 700 205 700H158.5" stroke="url(#paint0_linear_0_8)" stroke-width="3"/>
+<path id="Vector 86" d="M123 419H205C243.66 419 275 450.34 275 489V630C275 668.66 243.66 700 205 700H158.882" stroke="url(#paint1_linear_0_8)" stroke-width="3"/>
+<circle id="Ellipse 202" cx="123" cy="417" r="9" fill="url(#paint2_linear_0_8)"/>
+<circle id="Ellipse 204" cx="159" cy="700" r="9" fill="url(#paint3_linear_0_8)"/>
+<circle id="Ellipse 203" cx="9" cy="9" r="9" fill="url(#paint4_linear_0_8)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_8" x1="-60.7419" y1="354.563" x2="373.672" y2="354.563" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2C64EB"/>
+<stop offset="0.5" stop-color="#00A875"/>
+<stop offset="1" stop-color="#71B219"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_8" x1="83.1475" y1="559.526" x2="331.384" y2="559.526" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2C64EB"/>
+<stop offset="0.5" stop-color="#00A875"/>
+<stop offset="1" stop-color="#71B219"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_8" x1="109.281" y1="417.002" x2="138.677" y2="417.002" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2C64EB"/>
+<stop offset="0.5" stop-color="#00A875"/>
+<stop offset="1" stop-color="#71B219"/>
+</linearGradient>
+<linearGradient id="paint3_linear_0_8" x1="145.281" y1="700.002" x2="174.677" y2="700.002" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2C64EB"/>
+<stop offset="0.5" stop-color="#00A875"/>
+<stop offset="1" stop-color="#71B219"/>
+</linearGradient>
+<linearGradient id="paint4_linear_0_8" x1="-4.71938" y1="9.00165" x2="24.6771" y2="9.00165" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2C64EB"/>
+<stop offset="0.5" stop-color="#00A875"/>
+<stop offset="1" stop-color="#71B219"/>
+</linearGradient>
+</defs>
+</svg>
