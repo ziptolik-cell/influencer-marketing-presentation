@@ -1,3 +1,1 @@
-<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 2.34004 2.06704" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path id="RE" d="M1.33887 0.303711L1.48633 0.367188L1.74316 0.774414L1.75098 0.786133L1.75977 0.796875L2.08008 1.19531L2.03027 1.63086L1.99316 1.73047L1.62109 1.81348L1.32129 1.77832L0.655273 1.4707L0.511719 1.30566L0.265625 0.770508L0.298828 0.658203L0.467773 0.370117L0.860352 0.253906L1.33887 0.303711Z" fill="var(--fill-0, #71B219)" stroke="var(--stroke-0, white)" stroke-width="0.5"/>
-</svg>
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 2 2" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="RE" d="M1 0L2 0L2 1L2 1L2 1L2 1L2 2L2 2L2 2L1 2L1 2L0 1L0 1L0 1L0 0L1 0L1 0Z" fill="var(--fill-0,#71B219)" stroke="var(--stroke-0,white)" stroke-width="0"/></svg>

@@ -1,9 +1,1 @@
-<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 0.0549468 0.0235202" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="UM-JQ">
-<mask id="path-1-inside-1_0_147" fill="white">
-<path d="M0.0549468 0L0 0.0235202V0.0025912L0.0549468 0Z"/>
-</mask>
-<path d="M0.0549468 0L0 0.0235202V0.0025912L0.0549468 0Z" fill="var(--fill-0, #71B219)"/>
-<path d="M0.0549468 0L0.251705 0.459659L0.0313938 -0.499445L0.0549468 0ZM0 0.0235202H-0.5V0.781429L0.196758 0.483179L0 0.0235202ZM0 0.0025912L-0.023553 -0.496854L-0.5 -0.474385V0.0025912H0ZM0.0549468 0L-0.141812 -0.459659L-0.196758 -0.436139L0 0.0235202L0.196758 0.483179L0.251705 0.459659L0.0549468 0ZM0 0.0235202H0.5V0.0025912H0H-0.5V0.0235202H0ZM0 0.0025912L0.023553 0.502036L0.0784998 0.499445L0.0549468 0L0.0313938 -0.499445L-0.023553 -0.496854L0 0.0025912Z" fill="var(--stroke-0, white)" mask="url(#path-1-inside-1_0_147)"/>
-</g>
-</svg>
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 0 0" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="UM-JQ"><mask id="path-1-inside-1_0_147" fill="white"><path d="M0 0L0 0V0L0 0Z"/></mask><path d="M0 0L0 0V0L0 0Z" fill="var(--fill-0,#71B219)"/><path d="M0 0L0 0L0 0L0 0ZM0 0H0V1L0 0L0 0ZM0 0L0 0L0 0V0H0ZM0 0L0 0L0 0L0 0L0 0L0 0L0 0ZM0 0H0V0H0H0V0H0ZM0 0L0 0L0 0L0 0L0 0L0 0L0 0Z" fill="var(--stroke-0,white)" mask="url(#path-1-inside-1_0_147)"/></g></svg>
