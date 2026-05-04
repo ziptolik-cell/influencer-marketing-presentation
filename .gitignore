@@ -2,3 +2,4 @@
 *.jpeg
 download_map.py
 __pycache__/
+.claude/

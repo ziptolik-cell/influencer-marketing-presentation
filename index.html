@@ -7,8 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="map-countries.css">
+  <link rel="stylesheet" href="styles.css?v=17">
 </head>
 <body>
 
@@ -309,37 +308,8 @@
       </div>
       <h2 class="s6-title">Мы не просто размещаем рекламу — мы <span class="green-italic">покрываем рынки</span></h2>
       <div class="s6-map">
-        <div class="world-map" id="world-map-container"></div>
+        <img loading="lazy" decoding="async" src="assets/map/map.png" alt="" class="s6-map-img">
       </div>
-      <script>
-        // Lazy-load map when slide 6 enters viewport
-        (function(){
-          const c=document.getElementById('world-map-container');
-          const slide=document.getElementById('slide-6');
-          let loaded=false;
-          const load=()=>{
-            if(loaded)return;loaded=true;
-            fetch('map-fragment.html').then(r=>r.text()).then(html=>{
-              c.innerHTML=html+`
-<div class="map-pin map-pin-lg" style="inset:29.01% 75.02% 49.33% 10.08%"><div class="pin-outer"><div class="pin-mid"><div class="pin-inner"><img loading="lazy" decoding="async" src="assets/map/pin.svg" alt=""></div></div></div></div>
-<div class="map-pin map-pin-lg" style="inset:52.57% 39.82% 25.77% 45.28%"><div class="pin-outer"><div class="pin-mid"><div class="pin-inner"><img loading="lazy" decoding="async" src="assets/map/pin.svg" alt=""></div></div></div></div>
-<div class="map-pin map-pin-lg" style="inset:39.37% 16.78% 38.96% 68.32%"><div class="pin-outer"><div class="pin-mid"><div class="pin-inner"><img loading="lazy" decoding="async" src="assets/map/pin.svg" alt=""></div></div></div></div>
-<div class="map-pin map-pin-md" style="inset:65.03% 64.64% 22.09% 26.49%"><div class="pin-outer"><div class="pin-mid"><div class="pin-inner"><img loading="lazy" decoding="async" src="assets/map/pin1.svg" alt=""></div></div></div></div>
-<div class="map-pin map-pin-md" style="inset:52.04% 26.92% 35.07% 64.22%"><div class="pin-outer"><div class="pin-mid"><div class="pin-inner"><img loading="lazy" decoding="async" src="assets/map/pin1.svg" alt=""></div></div></div></div>
-<div class="map-pin map-pin-sm" style="inset:44.93% 39.81% 45.76% 53.79%"><div class="pin-outer"><div class="pin-mid"><div class="pin-inner"><img loading="lazy" decoding="async" src="assets/map/pin2.svg" alt=""></div></div></div></div>
-<div class="map-pin map-pin-sm" style="inset:43.56% 50.69% 47.13% 42.91%"><div class="pin-outer"><div class="pin-mid"><div class="pin-inner"><img loading="lazy" decoding="async" src="assets/map/pin2.svg" alt=""></div></div></div></div>
-<div class="map-pin map-pin-sm" style="inset:37.80% 46.51% 52.89% 47.08%"><div class="pin-outer"><div class="pin-mid"><div class="pin-inner"><img loading="lazy" decoding="async" src="assets/map/pin2.svg" alt=""></div></div></div></div>
-<div class="map-pin map-pin-sm" style="inset:40.42% 48.67% 50.27% 44.92%"><div class="pin-outer"><div class="pin-mid"><div class="pin-inner"><img loading="lazy" decoding="async" src="assets/map/pin2.svg" alt=""></div></div></div></div>`;
-            });
-          };
-          if('IntersectionObserver' in window){
-            const io=new IntersectionObserver((entries,obs)=>{
-              entries.forEach(e=>{if(e.isIntersecting){load();obs.disconnect();}});
-            },{rootMargin:'200px'});
-            io.observe(slide);
-          }else{load();}
-        })();
-      </script>
       <div class="s6-bottom">
         <p class="s6-label">Доступные гео-пакеты</p>
         <div class="s6-countries-block">
@@ -383,21 +353,21 @@
           <div class="s7-step-number">
             <div class="s7-num-outer"><div class="s7-num-mid"><div class="s7-num-inner">1</div></div></div>
           </div>
-          <p class="s7-step-label">Выбираем<br>гео и пакет</p>
+          <p class="s7-step-label">Выбираем <br>гео и пакет</p>
         </div>
         <div class="s7-arrow"><img loading="lazy" decoding="async" src="assets/icons/arrow-right.svg" alt=""></div>
         <div class="s7-step">
           <div class="s7-step-number">
             <div class="s7-num-outer"><div class="s7-num-mid"><div class="s7-num-inner">2</div></div></div>
           </div>
-          <p class="s7-step-label">Согласовываем<br>с Вами ТЗ</p>
+          <p class="s7-step-label">Согласовываем <br>с Вами ТЗ</p>
         </div>
         <div class="s7-arrow"><img loading="lazy" decoding="async" src="assets/icons/arrow-right.svg" alt=""></div>
         <div class="s7-step">
           <div class="s7-step-number">
             <div class="s7-num-outer"><div class="s7-num-mid"><div class="s7-num-inner">3</div></div></div>
           </div>
-          <p class="s7-step-label">Запускаем<br>продакшн</p>
+          <p class="s7-step-label">Запускаем <br>продакшн</p>
           <p class="s7-step-note">Единый на нашей стороне под акции, новость или уникальный для каждого блогера</p>
         </div>
         <div class="s7-arrow"><img loading="lazy" decoding="async" src="assets/icons/arrow-right.svg" alt=""></div>
@@ -405,14 +375,14 @@
           <div class="s7-step-number">
             <div class="s7-num-outer"><div class="s7-num-mid"><div class="s7-num-inner">4</div></div></div>
           </div>
-          <p class="s7-step-label">Синхронные<br>публикации</p>
+          <p class="s7-step-label">Синхронные <br>публикации</p>
         </div>
         <div class="s7-arrow"><img loading="lazy" decoding="async" src="assets/icons/arrow-right.svg" alt=""></div>
         <div class="s7-step">
           <div class="s7-step-number">
             <div class="s7-num-outer"><div class="s7-num-mid"><div class="s7-num-inner">5</div></div></div>
           </div>
-          <p class="s7-step-label">Получаете<br>единый отчёт</p>
+          <p class="s7-step-label">Получаете <br>единый отчёт</p>
         </div>
       </div>
     </div>
@@ -431,8 +401,8 @@
         <img loading="lazy" decoding="async" src="assets/images/ellipse-4-8.svg" alt="" class="s8-circle s8-c4">
       </div>
       <div class="s8-left">
-        <h2 class="s8-title">Примеры<br><span class="green-italic">пакетов</span></h2>
-        <p class="s8-subtitle">Охват <span class="green-bold-italic">миллионов</span><br>через один запуск</p>
+        <h2 class="s8-title">Примеры <br><span class="green-italic">пакетов</span></h2>
+        <p class="s8-subtitle">Охват <span class="green-bold-italic">миллионов</span> <br>через один запуск</p>
       </div>
       <div class="s8-package s8-package-1">
         <div class="s8-package-info">
@@ -513,7 +483,7 @@
       <div class="s9-bg-lines">
         <img loading="lazy" decoding="async" src="assets/backgrounds/bg-lines.webp" alt="">
       </div>
-      <h2 class="s9-title">У нас все<br><span class="green-italic">абсолютно прозрачно</span></h2>
+      <h2 class="s9-title">У нас все <br><span class="green-italic">абсолютно прозрачно</span></h2>
       <p class="s9-subtitle">Вы видите, за что платите</p>
       <div class="s9-items">
         <div class="s9-item">
